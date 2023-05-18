@@ -1,0 +1,6 @@
+export { addContactDb, IAddContact } from './add.js'
+export { deleteContactDb } from './delete.js'
+export { getContactByOwnerDb } from './get.js'
+export { getAllContactsDb } from './getAll.js'
+export { getContactByIdDb } from './getById.js'
+export { updateContactDb, IUpdateContact } from './update.js'

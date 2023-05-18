@@ -1,0 +1,6 @@
+export { addContact } from './addContact.js'
+export { deleteContact } from './deleteContact.js'
+export { getAllContacts } from './getAllContacts.js'
+export { getContactById } from './getContactById.js'
+export { updateContact } from './updateContact.js'
+export { updateStatusContact } from './updateFavorite.js'

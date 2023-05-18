@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "outDir": "."
+  },
+  "include": ["src/**/*", "contacts.ts", "index.ts"],
+  "exclude": ["node_modules"]
+}
