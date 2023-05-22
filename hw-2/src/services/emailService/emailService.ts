@@ -6,7 +6,7 @@ import { IMail } from './interfaces.js'
 
 dotenv.config()
 const { SENDGRID_API_KEY, FROM_EMAIL } = process.env
-sgMail.setApiKey(SENDGRID_API_KEY as string)
+sgMail.setApiKey(`SG.${SENDGRID_API_KEY}`)
 
 const isValidEmail = (email: string) => {
   const reEmail =
